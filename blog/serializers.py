@@ -2,7 +2,7 @@ from datetime import date
 
 from rest_framework import serializers
 from blog.models import Post, Comment
-from blog.validators import TitleValidator, AgeValidator
+from blog.validators import TitleValidator
 
 
 class PostSerializer(serializers.ModelSerializer):
